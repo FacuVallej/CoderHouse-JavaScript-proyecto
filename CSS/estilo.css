@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(131, 152, 99);
+}
+
+#formulario {
+    border-style:dashed;
+    border-color: rgb(77, 120, 95);
+    text-align: center;
+    margin: 50px;
+}
+
+#valor{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#valordolar{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 200;
+    color: rgb(91, 42, 156);
+}
+
+label{
+font-size: 22px;
+font-style:italic;
+font-weight: bold;
+}
+
+#botonlimpiar{
+    background-color: beige;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#resultado1{
+    border-style:double;
+}
