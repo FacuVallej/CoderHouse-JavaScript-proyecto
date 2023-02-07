@@ -19,6 +19,9 @@ body {
     font-style: oblique;
     font-weight: 200;
     color: rgb(91, 42, 156);
+    border-style:groove;
+    border-color: black;
+    border-radius: 10%;
 }
 
 label{
