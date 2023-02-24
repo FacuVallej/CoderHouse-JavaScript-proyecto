@@ -3,7 +3,7 @@ function limpiar() {
   }
 
           //DOLAR - EURO - REAL//
-let precios = [370,380,30];
+var precios = [370,380,30];
 
 
   function dolar() {

@@ -29,7 +29,7 @@ botonVaciar.addEventListener('click', () => {
 })
 
 //PRIMER PRIMER PASO, INYECTAR EL HTML
-stockProductos.forEach((producto) => {
+distintasdivisas.forEach((producto) => {
     const div = document.createElement('div')
     div.classList.add('producto')
     div.innerHTML = `
@@ -72,7 +72,7 @@ const agregarAlCarrito = (prodId) => {
             }
         })
     } else { //EN CASO DE QUE NO ESTÉ, AGREGAMOS EL CURSO AL CARRITO
-        const item = stockProductos.find((prod) => prod.id === prodId)//Trabajamos con las ID
+        const item = distintasdivisas.find((prod) => prod.id === prodId)//Trabajamos con las ID
         //Una vez obtenida la ID, lo que haremos es hacerle un push para agregarlo al carrito
         carrito.push(item)
     }
